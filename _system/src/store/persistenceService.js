@@ -13,7 +13,7 @@ const initialAppstate = {
     current: "scene1",
   },
   wiki: {
-    current: "floez",
+    current: "firstWikiEntry",
   },
   options: {
   }

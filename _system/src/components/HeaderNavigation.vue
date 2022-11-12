@@ -47,10 +47,15 @@ header {
   background-color: var(--primary-color-light-50);
   position: sticky;
   top: 0;
-  max-width: 600px;
   margin: auto;
   backdrop-filter: blur(4px);
   border: none;
+}
+
+@media (min-width: 720px) {
+  header {
+    margin: 0 20px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
