@@ -1,0 +1,22 @@
+{
+  "options": {
+    "de": "Optionen",
+    "en": "Options"
+  },
+  "fullScreenOff": {
+    "de": "Fullscreen einschalten",
+    "en": "Activate fullscreen"
+  },
+  "fullScreenOn": {
+    "de": "Fullscreen ausschalten",
+    "en": "Deactivate fullscreen"
+  },
+  "displayOptions": {
+    "de": "Anzeigeoptionen",
+    "en": "Display options"
+  },
+  "languageOptions": {
+    "de": "Spracheinstellungen",
+    "en": "Language options"
+  }
+}

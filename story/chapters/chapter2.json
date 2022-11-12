@@ -1,0 +1,9 @@
+{
+  "revealed": false,
+  "id": "chapter2",
+  "title": {
+    "de": "Kapitel 2",
+    "en": "Chapter 2"
+  },
+  "target": "scene2"
+}

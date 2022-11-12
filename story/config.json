@@ -1,0 +1,16 @@
+{
+  "projectKey": "abc",
+  "title": {
+    "de": "Storytitel",
+    "en": "Story title"
+  },
+  "contentWarnings": [
+    {
+      "de": "Inhaltsart",
+      "en": "Content type"
+    }
+  ],
+  "chapters": ["chapter1", "chapter2"],
+  "scenes": ["scene1", "scene2"],
+  "languages": ["de","en"]
+}

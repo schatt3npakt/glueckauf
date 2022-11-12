@@ -1,0 +1,47 @@
+:root {
+  --primary-color-dark: rgb(33, 33, 33);
+  --primary-color-dark-10: rgba(33, 33, 33, 0.10);
+  --primary-color-dark-50: rgba(33, 33, 33, 0.50);
+  --primary-color-light: rgb(255, 255, 255);
+  --primary-color-light-25: rgba(255, 255, 255, 0.25);
+  --primary-color-light-50: rgba(255, 255, 255, 0.50);
+  --storytitle-font-size: 3.5rem;
+  --scenetitle-font-size: 2.75rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 2rem;
+  --main-font-size: 1.25rem;
+  --headline-font-family: "UnifrakturMaguntia";
+  --main-font-family: "Playfair Display";
+}
+
+/* unifrakturmaguntia-regular - latin */
+@font-face {
+  font-family: 'UnifrakturMaguntia';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''),
+       url('./assets/fonts/unifrakturmaguntia-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/fonts/unifrakturmaguntia-v16-latin-regular.woff') format('woff'); /* Modern Browsers */
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''),
+       url('./assets/fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/playfair-display-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''),
+       url('./assets/fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/playfair-display-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

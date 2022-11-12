@@ -1,0 +1,13 @@
+{
+  "firstAchievement": {
+    "id": "firstAchievement",
+    "title": {
+      "de": "Lorem Ipsum",
+      "en": "Lorem Ipsum"
+    },
+    "description": {
+      "de": "Lorem Ipsum Dolor Sit Amet",
+      "en": "Lorem Ipsum Dolor Sit Amet"
+    }
+  }
+}
