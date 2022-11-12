@@ -14,6 +14,16 @@
   --main-font-family: "Playfair Display";
 }
 
+@media (min-width: 720px) {
+  :root {
+    --storytitle-font-size: 3.75rem;
+    --scenetitle-font-size: 3rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --main-font-size: 1.5rem;
+  }
+}
+
 /* unifrakturmaguntia-regular - latin */
 @font-face {
   font-family: 'UnifrakturMaguntia';
