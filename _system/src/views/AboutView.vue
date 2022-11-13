@@ -3,17 +3,15 @@
     <div class="wrapper">
       <HeadlineLevel1>{{text.aboutThisProject[storyStore.language]}}</HeadlineLevel1>
 
-      <p>
-        {{text.projectDescription[storyStore.language]}}
-      </p>
+      <p v-html="storyData.about[storyStore.language]"></p>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" v-if="storyData.contentWarnings.length >= 1">
       <HeadlineLevel2>{{ text.contentWarning[storyStore.language] }}</HeadlineLevel2>
 
       <p>{{ text.contentWarningBody[storyStore.language] }}</p>
 
-      <ul v-if="storyData.contentWarnings.length >= 1">
+      <ul>
         <li v-for="type in storyData.contentWarnings" :key="type">
           {{type[storyStore.language]}}
         </li>

@@ -4,6 +4,10 @@
     "de": "Storytitel",
     "en": "Story title"
   },
+  "about": {
+    "de": "Lorem Ipsum Dolor sit <b>amet</b>",
+    "en": "Lorem Ipsum Dolor sit <b>amet</b>"
+  },
   "contentWarnings": [
     {
       "de": "Inhaltsart",
